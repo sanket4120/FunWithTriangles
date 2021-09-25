@@ -1,0 +1,49 @@
+* {
+  font-family: poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 97%;
+  margin: 0 auto;
+  background: #b1e693;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.form-group {
+  margin: 1rem auto;
+}
+
+.form-control {
+  width: 100%;
+  padding: 5px;
+  outline: none;
+  border: none;
+  font-size: inherit;
+}
+
+.submit {
+  text-align: center;
+}
+
+.btn {
+  padding: 5px 15px;
+  background: #fff;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+#msg {
+  text-align: center;
+}
