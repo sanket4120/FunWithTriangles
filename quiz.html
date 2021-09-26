@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FWT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Triangle Quiz</h1>
+      <form id="quiz-form">
+        <div class="form-group question">
+          <p>
+            What is the third angle for the triangle where angle1 = 45° and
+            angle2 = 45°?
+          </p>
+          <span class="option">
+            <input type="radio" name="question1" value="45" />45
+          </span>
+          <span class="option">
+            <input type="radio" name="question1" value="60" />60
+          </span>
+          <span class="option">
+            <input type="radio" name="question1" value="90" />90
+          </span>
+        </div>
+
+        <div class="form-group question">
+          <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+          <span class="option">
+            <input type="radio" name="question2" value="obtuse" />obtuse
+          </span>
+          <span class="option">
+            <input type="radio" name="question2" value="acute" />acute
+          </span>
+          <span class="option">
+            <input type="radio" name="question2" value="right angled" />right
+            angled
+          </span>
+        </div>
+
+        <div class="form-group submit">
+          <button type="submit" class="btn">Submit</button>
+        </div>
+      </form>
+      <p id="msg"></p>
+    </div>
+
+    <script src="./js/quiz.js"></script>
+  </body>
+</html>
