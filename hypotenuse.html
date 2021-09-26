@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FWT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Check Hypotenuse</h1>
+      <p class="formula">Length of Hypotenuse = sqrt(A² + B²)</p>
+      <form>
+        <div class="form-group">
+          <label for="side1">A</label>
+          <input type="number" name="side1" id="side1" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="side2">B</label>
+          <input type="number" name="side2" id="side2" class="form-control" />
+        </div>
+        <div class="form-group submit">
+          <button type="submit" class="btn">Check Hypotenuse</button>
+        </div>
+      </form>
+      <p id="msg"></p>
+    </div>
+
+    <script src="./js/hypotenuse.js"></script>
+  </body>
+</html>
