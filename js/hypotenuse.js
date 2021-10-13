@@ -7,8 +7,13 @@ document.forms[0].addEventListener('submit', (e) => {
 
   msg.innerText = '';
 
+  s1 = Number(side1.value);
+  s2 = Number(side2.value);
+
   if (side1.value == '' || side2.value == '') {
     msg.innerText = 'Please fill in all the fields';
+  } else if (s1 <= 0 || s2 <= 0) {
+    msg.innerText = 'Invalid input';
   } else {
     let ans = Math.sqrt(calcSquare(side1.value) + calcSquare(side2.value));
     ans = ans.toFixed(2);
